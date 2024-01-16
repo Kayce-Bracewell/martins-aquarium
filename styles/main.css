@@ -1,0 +1,49 @@
+body {
+    background-color: goldenrod;
+}
+
+img {
+    height: 400px;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.wholeFish {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.fishProperties {
+    width: 600px;
+}
+
+.fish_card {
+    width: auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: flex-start;
+    background-color: cornflowerblue;
+    border: 2px dotted blanchedalmond;
+    margin: 5px 0 5px;
+}
+
+.fish__name, .fish__species, .fish__location, .fish__diet, .fish__length {
+    margin: 5px 0 5px;
+}
+
+.tip_card {
+    border: 2px solid crimson;
+    margin: 4px 0 4px;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 3px 0 3px;
+}
+
+.location_card {
+    width: auto;
+}
