@@ -47,3 +47,9 @@ img {
 .location_card {
     width: auto;
 }
+
+#nav-bar {
+    width: 66%;
+    display: flex;
+    justify-content: space-around;
+}
