@@ -37,19 +37,47 @@ img {
 }
 
 .tip_card {
+    display: flex;
     border: 2px solid crimson;
     margin: 4px 0 4px;
     text-align: center;
     background-color: aquamarine;
     padding: 3px 0 3px;
+    height: 400px;
+    width: auto;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .location_card {
     width: auto;
+    display: flex;
 }
 
 #nav-bar {
-    width: 66%;
+    border: 2px solid crimson;
+    background-color: lavender;
+    width: 300px;
     display: flex;
     justify-content: space-around;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.fishSection {
+    width: 66%;
+}
+
+.wholeContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.careSection {
+    width: auto;
+    justify-content: start;
+    width: 33%;
 }
